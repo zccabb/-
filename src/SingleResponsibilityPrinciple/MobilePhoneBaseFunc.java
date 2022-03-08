@@ -1,12 +1,9 @@
 package SingleResponsibilityPrinciple;
-import lombok.Data;
-
 /**
  * @Author: zcc
  * @Created_on: 2022/3/8/13:04
  * ./MoblicPhone.java
  */
-@Data
 public class MobilePhoneBaseFunc implements IMobilePhoneBaseFunc {
 
     //手机充电接口

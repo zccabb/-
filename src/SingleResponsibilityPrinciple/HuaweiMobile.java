@@ -1,13 +1,9 @@
 package SingleResponsibilityPrinciple;
-
-import lombok.Data;
-
 /**
  * @Author: zcc
  * @Created_on: 2022/3/8/14:14
  * ./HuaweiMobile.java
  */
-@Data
 ////具体的手机实例
 public class HuaweiMobile {
     private IMobilePhoneBaseProperty m_Property;
