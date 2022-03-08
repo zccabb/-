@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>DependenceInversionPrinciple</OriginalElement>
+  <nodes>
+    <node x="-241.0" y="-18.0">DependenceInversionPrinciple.Client</node>
+    <node x="152.0" y="0.0">DependenceInversionPrinciple.IRead</node>
+    <node x="264.0" y="106.0">DependenceInversionPrinciple.Newspaper</node>
+    <node x="141.0" y="-130.0">DependenceInversionPrinciple.Mother</node>
+    <node x="49.0" y="106.0">DependenceInversionPrinciple.Book</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DependenceInversionPrinciple.Newspaper" target="DependenceInversionPrinciple.IRead" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="331.5" y="81.0" />
+      <point x="216.5" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="DependenceInversionPrinciple.Book" target="DependenceInversionPrinciple.IRead" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="113.5" y="81.0" />
+      <point x="216.5" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.0" showDependencies="false" x="180.5" y="155.5" />
+  <SelectedNodes>
+    <node>DependenceInversionPrinciple.Newspaper</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>内部类</Category>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+    <Category>构造函数</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
