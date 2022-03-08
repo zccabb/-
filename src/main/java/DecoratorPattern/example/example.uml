@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>DecoratorPattern.example</OriginalElement>
+  <nodes>
+    <node x="359.875" y="177.0">DecoratorPattern.example.Finery</node>
+    <node x="352.375" y="354.0">DecoratorPattern.example.ConcreteDecorator</node>
+    <node x="381.875" y="0.0">DecoratorPattern.example.Person</node>
+    <node x="322.0" y="462.0">DecoratorPattern.example.ConcreteDecorator.Sneakers</node>
+    <node x="731.0" y="462.0">DecoratorPattern.example.ConcreteDecorator.Tshirts</node>
+    <node x="171.0" y="462.0">DecoratorPattern.example.ConcreteDecorator.BigTrouser</node>
+    <node x="459.0" y="462.0">DecoratorPattern.example.ConcreteDecorator.Tie</node>
+    <node x="595.0" y="462.0">DecoratorPattern.example.ConcreteDecorator.Suit</node>
+    <node x="0.0" y="462.0">DecoratorPattern.example.ConcreteDecorator.LeatherShoes</node>
+    <node x="0.0" y="587.0">DecoratorPattern.example.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DecoratorPattern.example.ConcreteDecorator.Tie" target="DecoratorPattern.example.ConcreteDecorator" relationship="INNER_CLASS">
+      <point x="-29.0" y="-40.0" />
+      <point x="488.0" y="441.0" />
+      <point x="448.875" y="441.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="DecoratorPattern.example.ConcreteDecorator" target="DecoratorPattern.example.Finery" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="DecoratorPattern.example.ConcreteDecorator.Sneakers" target="DecoratorPattern.example.Finery" relationship="GENERALIZATION">
+      <point x="-29.25" y="-40.0" />
+      <point x="351.25" y="431.0" />
+      <point x="327.0" y="431.0" />
+      <point x="327.0" y="329.0" />
+      <point x="448.875" y="329.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="DecoratorPattern.example.ConcreteDecorator.Tshirts" target="DecoratorPattern.example.Finery" relationship="GENERALIZATION">
+      <point x="29.0" y="-40.0" />
+      <point x="818.0" y="329.0" />
+      <point x="448.875" y="329.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="DecoratorPattern.example.ConcreteDecorator.LeatherShoes" target="DecoratorPattern.example.ConcreteDecorator" relationship="INNER_CLASS">
+      <point x="37.75" y="-40.0" />
+      <point x="113.25" y="441.0" />
+      <point x="448.875" y="441.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="DecoratorPattern.example.ConcreteDecorator.LeatherShoes" target="DecoratorPattern.example.Finery" relationship="GENERALIZATION">
+      <point x="-37.75" y="-40.0" />
+      <point x="37.75" y="329.0" />
+      <point x="448.875" y="329.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="DecoratorPattern.example.Finery" target="DecoratorPattern.example.Person" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.5" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="DecoratorPattern.example.ConcreteDecorator.Sneakers" target="DecoratorPattern.example.ConcreteDecorator" relationship="INNER_CLASS">
+      <point x="29.25" y="-40.0" />
+      <point x="409.75" y="441.0" />
+      <point x="448.875" y="441.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="DecoratorPattern.example.ConcreteDecorator.BigTrouser" target="DecoratorPattern.example.ConcreteDecorator" relationship="INNER_CLASS">
+      <point x="32.75" y="-40.0" />
+      <point x="269.25" y="441.0" />
+      <point x="448.875" y="441.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="DecoratorPattern.example.ConcreteDecorator.Suit" target="DecoratorPattern.example.ConcreteDecorator" relationship="INNER_CLASS">
+      <point x="-29.0" y="-40.0" />
+      <point x="624.0" y="441.0" />
+      <point x="448.875" y="441.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="DecoratorPattern.example.ConcreteDecorator.Tshirts" target="DecoratorPattern.example.ConcreteDecorator" relationship="INNER_CLASS">
+      <point x="-29.0" y="-40.0" />
+      <point x="760.0" y="441.0" />
+      <point x="448.875" y="441.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="DecoratorPattern.example.ConcreteDecorator.BigTrouser" target="DecoratorPattern.example.Finery" relationship="GENERALIZATION">
+      <point x="-32.75" y="-40.0" />
+      <point x="203.75" y="329.0" />
+      <point x="448.875" y="329.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="DecoratorPattern.example.ConcreteDecorator.Tie" target="DecoratorPattern.example.Finery" relationship="GENERALIZATION">
+      <point x="29.0" y="-40.0" />
+      <point x="546.0" y="431.0" />
+      <point x="570.5" y="431.0" />
+      <point x="570.5" y="329.0" />
+      <point x="448.875" y="329.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="DecoratorPattern.example.ConcreteDecorator.Suit" target="DecoratorPattern.example.Finery" relationship="GENERALIZATION">
+      <point x="29.0" y="-40.0" />
+      <point x="682.0" y="329.0" />
+      <point x="448.875" y="329.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.7627365356622998" showDependencies="false" x="423.5" y="333.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>内部类</Category>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+    <Category>构造函数</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
