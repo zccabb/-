@@ -1,11 +1,4 @@
 package SingleResponsibilityPrinciple;
-
-import jdk.jfr.SettingDefinition;
-import lombok.AccessLevel;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-
 /**
  * @Author: zcc
  * @Created_on: 2022/3/8/12:49
