@@ -11,6 +11,18 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.20" level="project" />
+=======
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+>>>>>>> 2ed47f00e98dcc45e0fcc4347aa3f9d8cdde6116
   </component>
 </module>
