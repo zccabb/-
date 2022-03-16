@@ -5,7 +5,19 @@
       <item index="0" class="java.lang.String" itemvalue="lombok.Data" />
     </list>
   </component>
+<<<<<<< HEAD
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/untitled/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="openjdk-17" project-jdk-type="JavaSDK">
+=======
   <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+>>>>>>> 2ed47f00e98dcc45e0fcc4347aa3f9d8cdde6116
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

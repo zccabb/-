@@ -3,9 +3,19 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DesignPatterns" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+<<<<<<< HEAD
+      <module name="DesignPatterns" target="17" />
+=======
       <module name="DesignPatterns" target="" />
+>>>>>>> 2ed47f00e98dcc45e0fcc4347aa3f9d8cdde6116
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
