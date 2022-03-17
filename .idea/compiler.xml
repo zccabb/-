@@ -11,11 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-<<<<<<< HEAD
       <module name="DesignPatterns" target="17" />
-=======
-      <module name="DesignPatterns" target="" />
->>>>>>> 2ed47f00e98dcc45e0fcc4347aa3f9d8cdde6116
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
